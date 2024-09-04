@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.formMainContainer2 {
+    width: 650px;
+    height: 850px;
+    font-family: sans-serif;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        position: relative;
+        right: 260px;
+        bottom: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+        position: relative;
+        right: 180px;
+        bottom: 30px;
+        text-transform: capitalize;
+        color: rgb(47, 11, 255);
+    }
+
+    p {
+        font-size: 20px;
+        color: gray;
+        text-transform: capitalize;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .inpt {
+        width: 500px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 0 10px;
+        margin: 10px 0;
+        background: none;
+        border: 1px solid rgb(47, 11, 255);
+    }
+
+    button {
+        width: 80%;
+        height: 50px;
+        background: none;
+        border: 3px solid rgb(107, 107, 107);
+        outline: none;
+        border-radius: 5px;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin: 10px 0;
+        width: fit-content;
+        padding: 5px 17px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .sub {
+        background-color: rgb(47, 11, 255);
+        color: white;
+        border: none;
+    }
+
+    .reg {
+        background-color: gray;
+        color: white;
+        border: none;
+    }
+
+    .para {
+        position: relative;
+        right: 80px;
+        bottom: 20px;
+    }
+
+    .inpt2 {
+        position: relative;
+        left: 200px;
+    }
+
+    .para2 {
+        position: relative;
+        font-size: 16px;
+        left: 170px;
+        margin: 10px 0px;
+    }
+}
